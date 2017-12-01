@@ -1,0 +1,433 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+html.js .loader {
+	background: none repeat scroll 0 0 #ffffff;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+html.js .loader_inner {
+	/*background-image: url("../img/preloader.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #fff;
+	height: 60px;
+	width: 60px;
+	margin-top: -30px;
+	margin-left: -30px;
+	left: 50%;
+	top: 50%;
+	position: absolute;*/
+}
+
+.year-left{
+	font-family: sans-serif;
+}
+
+html{
+	font-size: 16px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	min-width: 320px;
+	line-height: 1.6;
+	font-family: "RobotoRegular", sans-serif;
+	overflow-x: hidden;
+	color: black;
+	/*background-image: url(../img/back.jpg);
+	background-position: top center;
+	background-size:cover;
+	background-repeat: no-repeat;*/
+}
+
+.hidden {
+	display: none;
+}
+
+.wraper{
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
+header{
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/bg-top.jpg);
+	min-height: 450px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+header .logo{
+	background: #e03c31 url("../img/almdudler-logo.svg") 50% 50% no-repeat;
+	color: #e03c31;
+	position: relative;
+	top: 0;
+	left: 50%;
+	margin-left: -125px;
+	width: 250px;	
+	height: 80px;
+	cursor: pointer;
+	background-size: 174px 42px;
+}
+
+h2{
+	font-family: 'Francois One', sans-serif;
+	color: #e03c32;
+	text-align: center;
+	font-size: 2.5rem;
+	padding: 3rem 0 1rem;
+	font-weight: bold;
+	margin:0;
+}
+
+.line::after{
+	width: 86px;
+	height: 3px;
+	margin: 5px auto 5px;
+	background-color: #e03c32;
+	background: #e03c32;
+	display: block;
+	content: ' ';
+}
+
+h3{
+	font-size: 2rem;
+	font-family: 'Courgette', cursive;
+	margin: 10px 0;
+}
+
+h4{
+	font-size: 1.1rem;
+	font-family: sans-serif;
+	line-height: 1.3;
+}
+
+a:hover, a{
+	text-decoration: none;
+}
+
+.slide-articles{
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+}
+
+.slide-articles article{
+	margin: 1rem;
+	flex-basis: calc(80%/2 - 2rem);	
+	display: flex;	
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.btn-left, .btn-right {
+	cursor: pointer;
+	position: relative;
+	top: 150px;
+	width: 25px;
+	height: 50px;
+	background: url(../img/ico-left-right.png) 0px 0px no-repeat;
+}
+
+.btn-left{
+	float: left;
+	}
+
+.btn-right{
+	float: right;
+	transform: rotate(180deg);
+}
+
+time{
+	text-align: right;
+	margin-right: 1rem;
+	font-weight: bold;
+}
+
+time .number{
+	font-size: 2.5rem;
+	line-height: 1;
+}
+
+time .month{	
+	color: #e03c32;
+}
+
+.text a:hover{
+	color: white;
+}
+
+.text p{
+	color: grey;
+}
+
+.text img{
+	width: 100%;
+}
+
+.btn-slide{
+	background-color: #e03c32;
+	color: white;
+	border-radius: 30px;
+	padding: 3px 20px;
+	text-align: center;
+	font-family: 'Courgette', cursive;
+	font-size: 1.2rem;
+	display: block;
+}
+
+/*row-about*/
+.about{
+	color: white;
+}
+
+.row-about{
+	height: 450px;
+	position: relative;
+}
+
+.circle{
+	position: absolute;	
+	top: calc(50% - 12.5px);
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	background-color: #fff;
+	left: calc(50% - 12.5px);
+}
+
+.row-about::after{
+	display: block;
+	content: ' ';
+	position: absolute;	
+	top: calc(100% - 8px);
+	border-radius: 50%;
+	width: 16px;
+	height: 16px;
+	background-color: #fff;
+	left: calc(50% - 8px);
+	z-index: 10;
+}
+
+.year-left{
+	position: absolute;	
+	content:'1957';
+	top: -25px;
+	font-size: 50px;
+	right: 150%;
+	font-family: 'Courgette', cursive;
+}
+
+.year-right{
+	position: absolute;	
+	top: -25px;
+	font-size: 50px;
+	left: 150%;
+	font-family: 'Courgette', cursive;
+}
+
+.img-about, .text-about{
+	width: calc(50% - 3px);
+	height: 450px;
+	display: inline-block;
+}
+
+.left-radius{
+	border-top-left-radius: 150px;
+}
+
+.right-radius{
+	border-top-right-radius: 150px;
+}
+
+.img-about>img{
+	width: 100%;
+	background-position: center center;
+	background-size: cover;	
+	display: block;
+}
+
+.text-about{	
+	background-color: #e03c32;
+	overflow: hidden;
+}
+
+.border-left
+{
+	border-left: 3px white solid;
+}
+
+.border-right
+{
+	border-right: 3px white solid;	
+}
+
+.logo-about{
+	margin: 1.5rem;
+}
+
+.logo-right{
+	text-align: right;
+}
+
+.logo-left{
+	text-align: left;
+}
+
+.logo-about img{
+	width: 9rem;
+	height: 10rem;
+}
+
+.inf{
+	width: calc(60% - 1rem);
+	margin: 0rem 2rem 1rem 2rem;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.inf-left{
+	text-align: left;
+	float: left;
+}
+
+.inf-right{
+	text-align: right;
+	float: right;	
+}
+
+.history{
+	background-image: url(../img/Almdudler_Haus_1.jpg);
+	background-position: center center;
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: 1323px;	
+	color: #e03c32;
+	position: relative;
+}
+
+.history>.wraper h4, 
+.history>.wraper p, .about-us>h4{
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.history>.wraper h4, .about-us>h4{
+	padding-top: 2.5rem;
+}
+
+.history>.wraper p{
+	padding-top: 0.8rem;
+	font-family: 'Fira Sans', sans-serif
+}
+
+.history::after{
+	display: block;
+	content: ' ';
+	position: absolute;	
+	bottom: -30px;
+	left: calc(50% - 30px);
+	background-image: url(../img/fistory-bg.png) ;
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 30px;
+	z-index: 10;
+}
+
+#map {
+	width: 100%;
+	height: 250px;
+	background-color: grey;
+}
+
+.about-us .carousel{
+	margin-top: 2rem;
+}
+
+.about-us>h4{
+	width: 25%;
+}
+
+footer{
+	background-color: #343434;
+	text-align: center;
+	padding: 40px 0;
+	color: #6b6b6b;
+}
+
+footer p{
+	font-weight: bold;
+	margin: 5px 0;
+}
+
+footer>.wraper .logo{
+	margin: 0 auto;
+	background: url("../img/almdudler-logo-small.svg") no-repeat;
+	height: 40px;
+	width: 150px;
+	color:red;
+}
+
+footer>.wraper .logo:active{
+	color:red;
+}
+
+
+
+/*
+display: flex;
+flex-direction: column; 
+- напрям
+flex-wrap: wrap;	
+- перенос на новий рядок
+justify-content: center;
+- по вертикалі вирівн
+align-items: stretch;
+- по замовчуванню на всю висоту
+flex-basis: 300px;
+- розмір який охороняється
+flex-grow: 0;
+ - все пусте місце додається до цього ел
+align-self:flex-end;
+- вирівнює окремі елементи
+order:-1;
+- сортування
+}
+
+background: url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat;
+
+*/

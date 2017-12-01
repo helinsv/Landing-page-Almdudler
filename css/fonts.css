@@ -1,0 +1,27 @@
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+			 url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Francois One";
+	src: url("../fonts/Francois_One/FrancoisOne-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Courgette";
+	src: url("../fonts/Courgette/Courgette-Regular.ttf");
+}
+
+
+@font-face {
+	font-family: "Fira Sans";
+	src: url("../fonts/Fira_Sans/FiraSans-Regular.ttf");
+	font-style: normal;
+	font-weight: normal;
+}

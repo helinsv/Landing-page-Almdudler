@@ -1,0 +1,97 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	html{
+		font-size: 14px;
+	}
+	
+	.row-about{
+		height: 380px;
+	}
+
+	.logo-about{
+		margin: 1.5rem 1.5rem 0 1.5rem;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	html{
+		font-size: 12px;
+	}
+	
+	.row-about{
+		height: 300px;
+	}
+
+	.inf{
+		width: calc(100% - 2rem);
+		margin: 0rem 1rem 1rem 1rem;
+	}
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 606px) {
+	.row-about{
+		height: 210px;
+	}
+
+	.logo-about{
+		display: none;
+	}
+
+	.inf{
+		width: calc(100% - 2rem);
+		margin: 2rem 1rem 1rem 1rem;
+	}
+
+	.left-radius{
+		border-top-left-radius: 75px;
+	}
+
+	.right-radius{
+		border-top-right-radius: 75px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 420px) {
+	.about{
+		display: none;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
